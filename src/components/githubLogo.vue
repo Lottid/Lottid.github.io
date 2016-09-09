@@ -1,9 +1,34 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Github logo</title>
-<style type="text/css">
+<template>
+	<div class="github">
+		<div class="github-left-ear"></div>
+		<div class="github-right-ear"></div>
+		<div class="github-con"></div>
+		<div class="github-row"></div>
+		<div class="github-bottom"></div>
+		<div class="github-bottom-left"></div>
+		<div class="github-bottom-right"></div>
+		<div class="github-tail-right-bottom"></div>
+		<div class="github-tail-right-top"></div>
+		<div class="github-tail-left-top"></div>
+		<div class="github-tail-left-bottom"></div>
+		<div class="point point1"></div>
+		<div class="point point2"></div>
+		<div class="point point3"></div>
+		<div class="point point4"></div>
+		<div class="point point5"></div>
+		<div class="point point6"></div>
+		<div class="point point7"></div>
+	</div>
+</template>
+<script type="text/javascript">
+export default {
+    name: 'component_name',
+    data() {
+        return {};
+    }
+};
+</script>
+<style lang="css" scoped>
 * {margin: 0;padding: 0;}
 .github {width: 340px;height: 340px;border-radius: 50%;background: #000;position: relative;margin: 50px auto;}
 .github-left-ear {width: 70px;height: 35px;background: #fff;position: absolute;left: 70px;top: 69px;
@@ -56,20 +81,12 @@
 	border-bottom-right-radius: 35px 25px;
 	border-bottom-left-radius: 40px 20px;
 	border-top-right-radius: 40px 20px;
-	-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
 	transform: rotate(3deg);
 }
 .github-tail-right-top {
 	width: 58px;height: 37px;background: #000;position: absolute;left:63px;top: 233px;
 	border-bottom-right-radius: 40px 20px;
 	border-bottom-left-radius: 40px 25px;
-	-webkit-transform: rotate(18deg);
-	-moz-transform: rotate(15deg);
-	-ms-transform: rotate(15deg);
-	-o-transform: rotate(15deg);
 	transform: rotate(18deg);
 }
 .github-tail-left-top {
@@ -83,10 +100,6 @@
 	border-top-right-radius: 35px 35px;
 	border-top-left-radius: 15px 10px;
 	border-bottom-left-radius: 10px 20px;
-	-webkit-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	-o-transform: rotate(3deg);
 	transform: rotate(20deg);
 }
 .point {
@@ -137,27 +150,3 @@
 	top: 274px;
 }
 </style>
-</head>
-<body>
-	<div class="github">
-		<div class="github-left-ear"></div>
-		<div class="github-right-ear"></div>
-		<div class="github-con"></div>
-		<div class="github-row"></div>
-		<div class="github-bottom"></div>
-		<div class="github-bottom-left"></div>
-		<div class="github-bottom-right"></div>
-		<div class="github-tail-right-bottom"></div>
-		<div class="github-tail-right-top"></div>
-		<div class="github-tail-left-top"></div>
-		<div class="github-tail-left-bottom"></div>
-		<div class="point point1"></div>
-		<div class="point point2"></div>
-		<div class="point point3"></div>
-		<div class="point point4"></div>
-		<div class="point point5"></div>
-		<div class="point point6"></div>
-		<div class="point point7"></div>
-	</div>
-</body>
-</html>

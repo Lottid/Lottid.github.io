@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "description": "A Vue.js project",
+  "author": "Lottid <gyp19881020@sina.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.14.0",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.8.4",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-loader": "^0.13.0",
+    "postcss-short": "^1.4.0",
+    "postcss-sorting": "^1.6.1",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.2.2",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  }
+}
