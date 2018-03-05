@@ -83,6 +83,9 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #FF9000;
 }
+.font01 {
+  font-family: "Kaushan Script", cursive
+}
 .copyrights{
 	text-indent:-9999px;
 	height:0;
