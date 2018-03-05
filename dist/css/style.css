@@ -86,6 +86,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .font01 {
   font-family: "Kaushan Script", cursive
 }
+.color1 {
+  color: rgba(0,0,0,0.5);
+}
 .copyrights{
 	text-indent:-9999px;
 	height:0;
@@ -297,6 +300,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-contact {
   padding: 7em 0;
   clear: both;
+}
+#fh5co-about {
+  padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-about,
