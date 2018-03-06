@@ -1,0 +1,47 @@
+{
+  "name"              : "PWA Resume",
+  "short_name"        : "Resume",
+  "description"       : "郭燕鹏的简历",
+  "start_url"         : "/",
+  "display"           : "standalone",
+  "orientation"       : "any",
+  "background_color"  : "#fff",
+  "theme_color"       : "#fff",
+  "icons": [
+        {
+      "src"           : "/dist/images/user-00.jpg",
+      "sizes"         : "582x582",
+      "type"          : "image/png"
+    },
+        {
+      "src"           : "/dist/images/company/cstar.png",
+      "sizes"         : "128x128",
+      "type"          : "image/png"
+    },
+        {
+      "src"           : "/dist/images/company/ultraEdu.png",
+      "sizes"         : "140x100",
+      "type"          : "image/png"
+    },
+        {
+      "src"           : "/dist/images/company/gft.png",
+      "sizes"         : "614x614",
+      "type"          : "image/png"
+    },
+        {
+      "src"           : "/demos/logos/img/logo-css.jpg",
+      "sizes"         : "700x533",
+      "type"          : "image/jepg"
+    },
+        {
+      "src"           : "/demos/logos/img/logo-vue.png",
+      "sizes"         : "400x345",
+      "type"          : "image/png"
+    },
+        {
+      "src"           : "/demos/logos/img/logo-react.svg",
+      "sizes"         : "166x176",
+      "type"          : "image/svg+xml"
+    }
+    ]
+}
