@@ -1,0 +1,188 @@
+.vue-box {
+    background: #fff;
+    position: relative;
+    width: 100px;
+    height: 87px;
+    transform-style: preserve-3d;
+}
+
+.vue {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 345px solid #41b883;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.vue::before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 210px solid #35495e;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, -345px);
+}
+
+.vue::after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 80px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, -348px);
+}
+
+.react-box {
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+
+.react-info {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background: #222;
+}
+
+.react-ball {
+    background: #00D8FF;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transform-origin: 0 0;
+}
+
+.react-roll {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 24px solid #00D8FF;
+    width: 538px;
+    height: 205px;
+}
+
+.react-roll01 {
+    transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.react-roll02 {
+    transform: translate(-50%, -50%) rotate(120deg);
+}
+
+.angular-box {
+    width: 166px;
+    height: 176px;
+    position: relative;
+    background: #B2B2B2;
+    -webkit-clip-path: polygon(83px 0px, 166px 30px, 153px 138px, 83px 176px, 13px 138px, 0px 30px);
+    clip-path: polygon(83px 0px, 166px 30px, 153px 138px, 83px 176px, 13px 138px, 0px 30px);
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+}
+.angular-left {
+    width: 74px;
+    height: 158px;
+    position: absolute;
+    background: #E23237;
+    -webkit-clip-path: polygon(74px 0px, 74px 158px, 10px 124px, 0px 26px);
+    clip-path: polygon(74px 0px, 74px 158px, 10px 124px, 0px 26px);
+    left: 10px;
+    top: 10px;
+}
+
+.angular-right {
+    width: 74px;
+    height: 158px;
+    position: absolute;
+    background: #B52E31;
+    -webkit-clip-path: polygon(0px 0px, 74px 27px, 64px 124px, 0px 158px);
+    clip-path: polygon(0px 0px, 74px 27px, 64px 124px, 0px 158px);
+    left: 83px;
+    top: 10px;
+}
+
+.angular-left-text {
+    width: 52px;
+    height: 114px;
+    position: absolute;
+    background: #F2F2F2;
+    -webkit-clip-path: polygon(52px 0px, 52px 38px, 37px 72px, 52px 72px, 52px 88px, 30px 88px, 20px 114px, 0px 114px);
+    clip-path: polygon(52px 0px, 52px 38px, 37px 72px, 52px 72px, 52px 88px, 30px 88px, 20px 114px, 0px 114px);
+    left: 32px;
+    top: 15px;
+}
+
+.angular-right-text {
+    width: 52px;
+    height: 114px;
+    position: absolute;
+    background: #b2b2b2;
+    -webkit-clip-path: polygon(0px 0px, 52px 114px, 32px 114px, 25px 88px, 0px 88px, 0px 72px, 17px 72px, 0px 38px);
+    clip-path: polygon(0px 0px, 52px 114px, 32px 114px, 25px 88px, 0px 88px, 0px 72px, 17px 72px, 0px 38px);
+    left: 83px;
+    top: 15px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction:row;
+    margin-left: 100px;
+}
+.container p {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+}
+.item-vue {
+    width:100px;
+    margin-right: 10px;
+}
+.item-react {
+    width:120px;
+    margin-right: 10px;
+}
+.item-angular {
+    width:166px;
+    margin-right: 10px;
+}
+.scale01 {
+    transform: scale(0.25) translate(-600px,-516px);
+}
+.scale02 {
+    transform: scale(0.2) translate(-1200px,-1200px);
+}
+
+.calc {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
