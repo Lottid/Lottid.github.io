@@ -732,6 +732,15 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   overflow: hidden;
 }
+.work-ultraEdu {
+  background-color: #fff;
+  -webkit-background-size: 80% 80%;
+  background-size: 80% 80%;
+}
+.work-cstar {
+  background-color: #fff;
+  background-size: 130px 130px;
+}
 @media screen and (max-width: 768px) {
   .work {
     height: 400px;
@@ -767,6 +776,8 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
+  width: 85%;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .work .desc {
@@ -837,11 +848,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-bg {
   display: block;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   height: 300px;
+}
+.fh5co-blog .blog-bg-vue {
+  background-size: 80% 80%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-bg {
