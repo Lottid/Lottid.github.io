@@ -1,0 +1,26 @@
+{
+  "result": true,
+  "code": 200,
+  "message": "ok",
+  "data": [{
+    "id": 134,
+    "delFlag": 0,
+    "packageCode": "01",
+    "packageName": "经典套餐",
+    "englishName": "jdtc",
+    "unitId": 1,
+    "packagePrice": 99.0,
+    "discount": 1,
+    "storeCode": "10003002",
+    "packagePicture": "",
+    "deleteShow": 0,
+    "takeoutFlag": 1,
+    "eatinFlag": 1,
+    "sortId": 0,
+    "selfFlag": 1,
+    "takeoutPrice": 0.0,
+    "boxPrice": 0.0,
+    "vipPrice": 88.0,
+    "remark": null
+  }]
+}
